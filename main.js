@@ -1,0 +1,9 @@
+const canvas = document.querySelector('canvas'),
+btnTools = document.querySelectorAll('.tool'),
+fillColor = document.querySelector('#fill-color'),
+sizeSlider = document.querySelector('#size-slider'),
+btnColors = document.querySelectorAll('.colors .options'),
+colorPicker = document.querySelector('#color-picker'),
+canvasClear = document.querySelector('.clear-canvas'),
+saveImg = document.querySelector('.save-img'),
+ctx = canvas.getContext('2d');
